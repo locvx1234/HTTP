@@ -42,8 +42,20 @@ Ví dụ :
 - DELETE : Xóa tệp được xác định bởi URL (có thêm ở HTTP/1.1)
 
 ## 4. HTTP response 
+Cấu trúc thông điệp HTTP response
 
+<img src="http://i.imgur.com/VlsUNjX.png">
 
+Ví dụ :
+
+<img src="http://i.imgur.com/XdMvWXn.png">
+
+#### Mã trạng thái HTTP response
+- **200 OK**: Yêu cầu thành công, đối tượng được yêu cầu chứa ở phần sau của thông báo
+- **301 Moved Permanently**: Đối tượng yêu cầu đã bị chuyển, thư mục mới của đối tượng được xác định ở phía sau
+- **400 Bad request**: Không hiểu yêu cầu
+- **404 Not found**: Không tìm thấy đối tượng được yêu cầu
+- **HTTP version not supported**:
 ## 5. Cookies
 
 ## 6. Web caches (proxy server)
