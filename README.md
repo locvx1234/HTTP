@@ -4,12 +4,13 @@ ghi chép về HTTP
 ## 1. Tổng quan 
 **HTTP** (hypertext transfer protocol) là giao thức tầng ứng dụng cho Web.
 
-Sử dụng mô hình Client-Server 
+Sử dụng mô hình Client-Server :
+
 	- Client : trình duyệt yêu cầu, nhận và hiển thị các đối tượng Web
 	- Server : Web server gửi các đối tượng web trong các đáp ứng yêu cầu 
 
 ## 2. Kết nối HTTP
-Chia làm 2 loại : Kết nối liên tục và kết nối không liên tục 
+Có 2 loại : Kết nối liên tục và kết nối không liên tục 
 
 ##### Không liên tục 
 Nhiều nhất một đối tượng được gửi trong một kết nối TCP 
@@ -55,7 +56,8 @@ Ví dụ :
 - **301 Moved Permanently**: Đối tượng yêu cầu đã bị chuyển, thư mục mới của đối tượng được xác định ở phía sau
 - **400 Bad request**: Không hiểu yêu cầu
 - **404 Not found**: Không tìm thấy đối tượng được yêu cầu
-- **HTTP version not supported**:
+- **HTTP version not supported**: Phiên bản HTTP không hỗ trợ
+
 ## 5. Cookies
 
 ## 6. Web caches (proxy server)
