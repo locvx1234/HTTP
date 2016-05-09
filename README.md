@@ -6,8 +6,8 @@ ghi chép về HTTP
 
 Sử dụng mô hình Client-Server :
 
-	- Client : trình duyệt yêu cầu, nhận và hiển thị các đối tượng Web
-	- Server : Web server gửi các đối tượng web trong các đáp ứng yêu cầu 
+- **Client** : trình duyệt yêu cầu, nhận và hiển thị các đối tượng Web
+- **Server** : Web server gửi các đối tượng web trong các đáp ứng yêu cầu 
 
 ## 2. Kết nối HTTP
 Có 2 loại : Kết nối liên tục và kết nối không liên tục 
@@ -60,6 +60,8 @@ Ví dụ :
 
 ## 5. Cookies
 Cookie là một bản ghi được tạo ra và lưu trên trình duyệt. 
+
+<img src="http://i.imgur.com/VzeiuAo.png">
 
 Khi người dùng truy cập vào một website, server tạo một ID cookie cho người dùng. Cookie sẽ ghi nhớ những thông tin như username, password, các lựa chọn của người dùng. Client sẽ sử dụng cookie được cấp để sử dụng những thông tin trong những lần truy cập tiếp theo.
 
