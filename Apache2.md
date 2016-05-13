@@ -37,7 +37,7 @@ Thư mục chứa trang web mặc định tại **/var/www**, bạn có thể ch
 
 Tìm **DocumentRoot /var/www** và chuyển thành đường dẫn đến thư mục bạn muốn (VD **DocumentRoot /home/locvx**)
 
-Và sửa file **/etc/apache2/apache2.conf** : đổi **<Directory /var/www/>** thành **<Directory /home/locvx>**
+Và sửa file **/etc/apache2/apache2.conf** : đổi **Directory /var/www** thành **Directory /home/locvx**
 
 Sau mỗi sự thay đổi phải restart lại dịch vụ apache2 để cập nhật thay đổi
 
@@ -45,6 +45,9 @@ Sau mỗi sự thay đổi phải restart lại dịch vụ apache2 để cập 
 ## 3. Sử dụng Wireshark để bắt và phân tích gói tin
 - IP client : 192.168.0.5
 - IP server : 192.168.0.20
+
+Sau khi chọn interface và bắt gói tin và lọc theo `http`, mình thu được các gói request và response 
+
 #### HTTP response 
 
 <img src="http://i.imgur.com/gHhLGqW.png">
