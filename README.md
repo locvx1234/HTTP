@@ -56,7 +56,7 @@ Ví dụ :
 - **301 Moved Permanently**: Đối tượng yêu cầu đã bị chuyển, thư mục mới của đối tượng được xác định ở phía sau
 - **400 Bad request**: Không hiểu yêu cầu
 - **404 Not found**: Không tìm thấy đối tượng được yêu cầu
-- **HTTP version not supported**: Phiên bản HTTP không hỗ trợ
+- **505 HTTP version not supported**: Phiên bản HTTP không hỗ trợ
 
 ## 5. Cookies
 Cookie là một bản ghi được tạo ra và lưu trên trình duyệt. 
